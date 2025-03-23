@@ -1,0 +1,96 @@
+.info-block-col {
+  margin: 90px 200px;
+  border: 1px solid #ddddddde;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: #4e4e4ede;
+}
+.h2-ap-pg {
+  color: black;
+  font-size: 24px;
+}
+.info-block-div {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  margin: 0px;
+}
+
+.three-col-div {
+  margin-top: 10px;
+  display: grid;
+  width: 400px;
+
+  gap: 10px;
+  padding: 2px 8px;
+}
+input {
+  border: 1px solid#171717de;
+  padding: 0px 10px;
+  height: 37px;
+  border-radius: 10px;
+}
+label {
+  color: #4e4e4ede;
+}
+.h2-ap-ci {
+  margin-top: 100px;
+  color: black;
+  font-size: 24px;
+}
+
+.two-col-div {
+  margin-top: 10px;
+  display: grid;
+  width: 600px;
+
+  gap: 10px;
+  padding: 2px 8px;
+}
+.checkbox {
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+.consent-div {
+  align-items: center;
+  gap: 10px;
+  display: flex;
+  margin: 50px 0px;
+}
+.btn-sub-pb {
+  display: flex;
+  gap: 10px;
+  margin-left: 700px;
+}
+.ap-bp-cncl {
+  border: 1px solid #171717de;
+  border-radius: 20px;
+  background-color: white;
+  width: 250px;
+  height: 50px;
+  font-weight: 500;
+  font-size: 24px;
+}
+.ap-bp-cncl,
+a {
+  color: black;
+}
+.ap-bp-save {
+  border: 1px solid #171717de;
+  border-radius: 20px;
+  background-color: #171717de;
+  width: 250px;
+  height: 50px;
+  font-weight: 500;
+  font-size: 24px;
+}
+.ap-bp-save-1 {
+  color: white;
+}
+.ap-bp-save:hover {
+  background-color: black;
+}
+.ap-bp-cncl:hover {
+  border: 2px solid black;
+}

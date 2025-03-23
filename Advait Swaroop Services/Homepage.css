@@ -1,0 +1,143 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+.padding-cnt {
+  padding: 0px 50px;
+}
+
+#top-header-contact {
+  display: flex;
+  background-color: rgb(183, 134, 60);
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+}
+.list,
+a {
+  color: white;
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  gap: 20px;
+  text-align: center;
+}
+.social-media-icon,
+a {
+  margin: 2px;
+  padding-right: 10px;
+  display: flex;
+  flex: 1;
+  list-style: none;
+  text-decoration: none;
+  gap: 10px;
+}
+
+#main-header {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+#logo-img {
+  margin: 4px;
+  padding: 1px;
+  width: 250px;
+  border: 1px solid rgb(183, 134, 60);
+  border-radius: 40px;
+  box-shadow: 0.5px 0.5px 1px 1px rgb(183, 134, 60);
+}
+
+#logo {
+  border: 2px;
+  border-color: rgb(183, 134, 60);
+}
+.slider-container {
+  /* align-items: center; */
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+#btn-grp {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: end;
+  margin-right: 2px;
+}
+.auth {
+  height: 30px;
+  width: 120px;
+  color: rgb(183, 134, 60);
+  font-weight: 600;
+  background-color: white;
+  border: 1px solid rgb(183, 134, 60);
+  border-radius: 50px;
+}
+
+.auth:hover {
+  background-color: rgb(183, 134, 60);
+  color: white;
+  font-weight: 800;
+}
+#nav-bar {
+  display: flex;
+  flex: 1;
+  background-color: rgb(183, 134, 60);
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+.nav-bar-btn,
+a {
+  display: flex;
+  font-size: 1.2rem;
+  text-align: center;
+  list-style: none;
+  gap: 10px;
+  padding: 1px;
+}
+.nav-bar-bt {
+  background-color: white;
+  color: rgb(183, 134, 60);
+  width: 130px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+.nav-bar-bt:hover {
+  background-color: rgb(183, 134, 60);
+  color: white;
+  font-weight: 600;
+  border: 1px solid aliceblue;
+}
+#mn-pg-bgimg {
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 100%;
+  opacity: 0.7;
+}
+.hm-mn-pg-contn {
+  position: relative;
+}
+#mn-pg-whl-div {
+  position: relative;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+#footer-area {
+  background-color: rgb(183, 134, 60);
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+  /* margin: 0px 50px 0px 50px; */
+}
+.row {
+  display: flex;
+  color: aliceblue;
+  justify-content: space-between;
+}
