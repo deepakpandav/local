@@ -140,12 +140,10 @@ main {
 
 .slider-container {
   display: flex;
-
   height: 500px;
   background: #fff;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
-  overflow: hidden;
   padding: 10px;
   margin: 120px 20px 0px 20px;
 }
@@ -163,8 +161,9 @@ main {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: opacity 1s ease-in-out;
+  transition: opacity 0.5s ease-in-out, transform 1s;
   border-radius: 20px;
+  overflow: hidden;
 }
 
 .collage-container {
@@ -173,8 +172,6 @@ main {
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 40px;
-
-  overflow: hidden;
 }
 
 .collage-container img {
@@ -200,6 +197,6 @@ main {
     opacity: 0;
   }
   100% {
-    opacity: 1;
+    opacity: 0;
   }
 }
